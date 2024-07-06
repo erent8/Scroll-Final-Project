@@ -58,7 +58,7 @@ Imagine an organization where there’s no CEO or board of directors. Instead, e
 # Project Goals
 
 - Solidity Contract Development: Design and implement a Solidity smart contract for a basic DAO.
-  - [Solidity Smart Contract for DAO]([https://pages.github.com/](https://github.com/erent8/Scroll-Final-Project/blob/main/Build_Dao.sol)) 
+  - [Solidity Smart Contract for DAO](https://github.com/erent8/Scroll-Final-Project/blob/main/Build_Dao.sol)
 
 - Scroll Sepolia Deployment: Deploy the contract to the Scroll Sepolia testnet.
     - The procedures are as follows:
@@ -84,7 +84,7 @@ This is a basic Decentralized Autonomous Organization (DAO) contract written in 
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/SimpleDAO.git
+    git clone https://github.com/erent8/SimpleDAO.git
     cd SimpleDAO
     ```
 
@@ -111,7 +111,7 @@ This is a basic Decentralized Autonomous Organization (DAO) contract written in 
 
 ### Contract Address
 
-The deployed contract address on the Scroll Sepolia testnet: `0xYourContractAddress`
+The deployed contract address on the Scroll Sepolia testnet: `0x59b6h......`
 
 ### Contract Functions
 
