@@ -1,21 +1,43 @@
-# Contents
-
-
-
-
-
-
 ### Final Project: Option 1 - Build a Basic DAO on the Scroll Blockchain
 
-### _Introduction_
+- [Introduction](#introduction)
+- [What is a DAO?](#what-is-a-dao)
+- [How Does a DAO Work?](#how-does-a-dao-work)
+- [Real-World Examples](#real-world-examples)
+- [Project Goals](#project-goals)
+- [Core DAO Functionality](#core-dao-functionality)
+  - [Membership](#membership)
+  - [Proposal Creation](#proposal-creation)
+  - [Voting](#voting)
+- [Implementation Details](#implementation-details)
+- [Project Checklist](#project-checklist)
+  - [Solidity Contract](#solidity-contract)
+  - [Scroll Sepolia Deployment](#scroll-sepolia-deployment)
+  - [GitHub Repository](#github-repository)
+- [Optional Enhancements](#optional-enhancements)
+- [Final Project: Option 2 - Build Your Own Blockchain Dapp on Scroll](#final-project-option-2---build-your-own-blockchain-dapp-on-scroll)
+- [Project Goals](#project-goals-1)
+- [Dapp Possibilities](#dapp-possibilities-just-to-spark-your-creativity)
+  - [Decentralized Finance (DeFi)](#decentralized-finance-defi)
+  - [Non-Fungible Tokens (NFTs)](#non-fungible-tokens-nfts)
+  - [Supply Chain Management](#supply-chain-management)
+  - [Identity Verification](#identity-verification)
+  - [Gaming](#gaming)
+  - [Social Networks](#social-networks)
+- [Project Checklist](#project-checklist-1)
+  - [Dapp Concept](#dapp-concept)
+  - [Solidity Contract](#solidity-contract-1)
+  - [Scroll Sepolia Deployment](#scroll-sepolia-deployment-1)
+  - [GitHub Repository](#github-repository-1)
+# Introduction
 
 Decentralized Autonomous Organizations (DAOs) are a revolutionary way to govern communities and projects on the blockchain. In this project, you will create a simple DAO contract on the Scroll blockchain, allowing members to join, create proposals, and vote on them.
 
-### _What is a DAO?_
+# What is a DAO?
 
 Imagine an organization where there’s no CEO or board of directors. Instead, everyone gets a say in decision-making. That’s a DAO. At its core, a DAO is a member-governed entity that operates on blockchain technology. It uses smart contracts to automate operations, ensuring transparency and fairness.
 
-### How Does a DAO Work?
+# How Does a DAO Work?
 
 - Decentralization: In a traditional company, decisions are made by a central authority. In a DAO, there’s no central figure. Instead, every member can propose and vote on changes. It’s like running a company where everyone has a vote in every decision.
 
@@ -23,7 +45,7 @@ Imagine an organization where there’s no CEO or board of directors. Instead, e
 
 - Governance: Members usually hold governance tokens, which grant them voting rights. The more tokens you have, the more weight your vote carries. This system ensures that those with a larger stake in the organization have a bigger say in its operations.
 
-### Real-World Examples
+# Real-World Examples
 
 - MakerDAO: Manages the stablecoin DAI. Members vote on protocol changes, like adjusting interest rates.
 
@@ -31,7 +53,7 @@ Imagine an organization where there’s no CEO or board of directors. Instead, e
 
 -Uniswap: A decentralized exchange governed by a DAO. Token holders propose and vote on protocol changes.
 
-### Project Goals
+# Project Goals
 
 - Solidity Contract Development: Design and implement a Solidity smart contract for a basic DAO.
 
@@ -39,23 +61,23 @@ Imagine an organization where there’s no CEO or board of directors. Instead, e
 
 - GitHub Documentation: Create a GitHub repository to host your contract code, along with a clear and comprehensive README.md file.
 
-### Core DAO Functionality
+# Core DAO Functionality
 
-### Your DAO contract should include the following features:
+# Your DAO contract should include the following features:
 
-### Membership:
+# Membership:
 
 - A function to join the DAO by paying a membership fee.
 
 -A way to keep track of members (utilizing map would be one option).
 
-### Proposal Creation:
+# Proposal Creation:
 
 - A function for members to create proposals with a description and voting deadline.
 
 - Storage for proposal details.
 
-### Voting:
+# Voting:
 
 - A function for members to vote on proposals (e.g., "yes" or "no").
 
@@ -63,7 +85,7 @@ Imagine an organization where there’s no CEO or board of directors. Instead, e
 
 - Implementation Details
 
-#### Solidity: Use Solidity as your smart contract programming language.
+# Solidity: Use Solidity as your smart contract programming language.
 
 - Scroll Sepolia Testnet: Choose the Scroll Sepolia testnet for deployment due to its lower transaction costs and testing environment.
 
@@ -75,7 +97,7 @@ Clear instructions for compiling and deploying the contract.
 
 - A detailed explanation of the contract's functions and data structures.
 
-### Project Checklist
+# Project Checklist
 
 Solidity Contract:
 
@@ -83,7 +105,7 @@ Solidity Contract:
 
 [] Thoroughly test the contract's functions locally.
 
-### Scroll Sepolia Deployment:
+# Scroll Sepolia Deployment:
 
 [] Set up your development environment for Scroll.
 
@@ -91,7 +113,7 @@ Solidity Contract:
 
 [] Verify the contract is working correctly on the testnet.
 
-### GitHub Repository:
+# GitHub Repository:
 
 [] Create a GitHub repository for your project.
 
@@ -99,7 +121,7 @@ Solidity Contract:
 
 [] Document the contract, deployment process, and Sepolia address in the README.md.
 
-### Optional Enhancements (Go Beyond the Basics!)
+# Optional Enhancements (Go Beyond the Basics!)
 
 - Token-Based Voting: Implement voting power based on the number of governance tokens a member holds.
 
@@ -107,13 +129,11 @@ Solidity Contract:
 
 - Quadratic Voting: Explore a voting mechanism that reduces the influence of large token holders.
 
-### Final Project: Option 2 - Build Your Own Blockchain Dapp on Scroll
-
-### Introduction
+# Final Project: Option 2 - Build Your Own Blockchain Dapp on Scroll
 
 - The world of blockchain is full of possibilities! In this option, you have the freedom to design and create your own decentralized application (Dapp) on the Scroll blockchain. Let your imagination run wild and build a Dapp that solves a problem, enhances an existing system, or introduces something entirely new.
 
-### Project Goals
+# Project Goals
 
 - Ideation and Concept Development: Brainstorm and refine a unique Dapp concept that leverages the capabilities of the Scroll blockchain.
 
@@ -125,51 +145,51 @@ Solidity Contract:
 
 - Dapp Possibilities (Just to Spark Your Creativity!)
 
-### Decentralized Finance (DeFi):
+# Decentralized Finance (DeFi):
 
 - Simple Crowdfunding Platform: Allow users to contribute funds to a project and receive tokens in return upon successful completion.
 
 - Escrow Service: Hold funds securely in a smart contract until both parties fulfill their obligations in an agreement (e.g., freelancing platform).
 
-### Non-Fungible Tokens (NFTs):
+# Non-Fungible Tokens (NFTs):
 
 - Membership NFT: Grant access to exclusive content or experiences by holding a unique NFT.
 
 - Event Ticketing System: Issue tamper-proof NFT tickets for events, eliminating the risk of counterfeiting.
 
-### Supply Chain Management:
+# Supply Chain Management:
 
 Track and Trace System: Monitor the movement of goods through the supply chain, ensuring transparency and provenance.
 
-### Identity Verification:
+# Identity Verification:
 
 Simple KYC (Know Your Customer) Dapp: Verify user identities on-chain using government-issued IDs or other trusted sources.
 
-### Gaming:
+# Gaming:
 
 - In-Game Item Marketplace: Allow players to buy, sell, and trade unique in-game items securely on the blockchain.
 
-### Social Networks:
+# Social Networks:
 
 Tip Jar Dapp: Enable users to send and receive micropayments to content creators on a social platform.
 
 ...and many more! The sky's the limit – come up with something truly original!
 
-### Project Checklist
+# Project Checklist
 
-### Dapp Concept:
+# Dapp Concept:
 
 [] Define a clear problem or opportunity that your Dapp will address.
 
 [] Outline the key features and functionality of your Dapp.
 
-### Solidity Contract:
+# Solidity Contract:
 
 [] Write the Solidity contract code for your Dapp.
 
 [] Thoroughly test the contract's functions locally.
 
-### Scroll Sepolia Deployment:
+# Scroll Sepolia Deployment:
 
 [] Compile and deploy your Dapp's contract to the Sepolia testnet.
 
