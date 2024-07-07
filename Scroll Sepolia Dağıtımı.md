@@ -16,18 +16,18 @@ Bu proje, Scroll Sepolia test ağında basit bir Merkeziyetsiz Otonom Organizasy
 1. Node.js ve npm'in yüklü olduğundan emin olun.
 
 2. Hardhat'i global olarak yükleyin:
-npm install -g hardhat
+`npm install -g hardhat`
 
 3. Yeni bir proje dizini oluşturun ve içine girin:
 
-mkdir scroll-dao-project
-cd scroll-dao-project
+`mkdir scroll-dao-project`
+`cd scroll-dao-project`
 
 4. Hardhat projesini başlatın:
-npx hardhat init
+`npx hardhat init`
 
 5. Gerekli bağımlılıkları yükleyin:
-npm install @openzeppelin/contracts dotenv @nomiclabs/hardhat-etherscan
+`npm install @openzeppelin/contracts dotenv @nomiclabs/hardhat-etherscan`
 
 ## Hardhat Yapılandırması
 
