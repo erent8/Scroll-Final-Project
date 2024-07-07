@@ -108,7 +108,8 @@ Solidity Contract:
 
 [+] Verify the contract is working correctly on the testnet.
 
-# GitHub Repository:
+# GitHub Repository:  [Solidity Smart Contract for DAO](https://github.com/erent8/Scroll-Final-Project/blob/main/Build_Dao.sol)
+
 
 [+] Create a GitHub repository for your project.
 
