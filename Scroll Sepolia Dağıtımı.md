@@ -1,4 +1,4 @@
-# Scroll Blockchain'de SimpleDAO Projesi
+# Scroll Sepholia Dağıtımı
 
 Bu proje, Scroll Sepolia test ağında basit bir Merkeziyetsiz Otonom Organizasyon (DAO) akıllı sözleşmesinin nasıl oluşturulacağını, dağıtılacağını ve test edileceğini göstermektedir.
 
